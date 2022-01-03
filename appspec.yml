@@ -6,7 +6,7 @@ os: linux
 # This can be replaced with an environment variable reference defined in the 
 # AWS instance - for example 
 files:
-  - source: technikfda.war
+  - source: mvc.war
     destination: /usr/share/tomcat7/webapps
 
 # Before the application is deployed, Tomcat needs to be stopped and 
