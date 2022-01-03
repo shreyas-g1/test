@@ -7,7 +7,7 @@ os: linux
 # AWS instance - for example 
 files:
   - source: mvc.war
-    destination: /usr/share/tomcat7/webapps
+    destination: /usr/share/apache-tomcat-10.0.14/webapps
 
 # Before the application is deployed, Tomcat needs to be stopped and 
 # the existing applications cleaned up, otherwise, AWS Codedeploy will not
