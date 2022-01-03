@@ -16,5 +16,6 @@ phases:
     - mv target/mvc.war mvc.war
 artifacts:
   files:
+  - appspec.yml
   - mvc.war
   - .ebextensions/**/*
