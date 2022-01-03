@@ -17,4 +17,4 @@ hooks:
    - location: shutdown.sh
  # Now we can start up Tomcat once again
  ApplicationStart:
-   - location: tomcat_start.sh
+   - location: startup.sh
