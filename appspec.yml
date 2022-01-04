@@ -6,7 +6,7 @@ os: linux
 # This can be replaced with an environment variable reference defined in the 
 # AWS instance - for example 
 files:
-  - source: mvc.war
+  - source: SpringMVC.war
     destination: /usr/share/apache-tomcat-10.0.14/webapps
 
 # Before the application is deployed, Tomcat needs to be stopped and 
