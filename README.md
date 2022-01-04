@@ -1,43 +1,18 @@
-Spring MVC Showcase
--------------------
-Demonstrates the capabilities of the Spring MVC web framework through small, simple examples.
-After reviewing this showcase, you should have a good understanding of what Spring MVC can do and get a feel for how easy it is to use.
-Includes project code along with a supporting slideshow and screen cast.
+# Shopping-Cart-Spring-MVC-Hibernate-Application
+A shopping cart spring-mvc application with hibernate. Application sends user email confirmation on registration and it also gives user to generate their final bill as a PDF with PDF-View.
 
-In this showcase you'll see the following in action:
+### 1. The home page of the project is as follows:
+![](images/pro1.PNG?raw=true)
 
-* The simplest possible @Controller
-* Mapping Requests
-* Obtaining Request Data
-* Generating Responses
-* Message Converters
-* Rendering Views
-* Type Conversion
-* Validation
-* Forms
-* File Upload
-* Exception Handling
+### 2. If the user has not signed up before he gets a option to register himself. While the user registers, he gets the chance to either register as a customer or seller. The registration page looks as follows.
+![](images/pro2.PNG?raw=true)
+### The registration page is embedded with validators, which checks the inputs for any unwanted scripts the user has entered.
 
-To get the code:
--------------------
-Clone the repository:
+### 3. The seller can then add the products into the product list from the product add page. The product details that can be added are the product title, catergory that it belongs to, product description, its image and price.
+![](images/pro4.PNG?raw=true)
 
-    $ git clone git://github.com/SpringSource/spring-mvc-showcase.git
+### 4. The product can be added to the user cart after the user logs in as a customer and selects the item from the list.
+![](images/pro7.PNG?raw=true)
 
-If this is your first time using Github, review https://help.github.com to learn the basics.
-
-To run the application:
--------------------	
-From the command line with Maven:
-
-    $ cd spring-mvc-showcase
-    $ mvn jetty:run 
-
-Access the deployed web application at: http://localhost:8080/spring-mvc-showcase/
-
-Note:
--------------------
-
-This showcase originated from a [blog post](https://spring.io/blog/2010/07/22/spring-mvc-3-showcase/) and was adapted into a SpringOne presentation called [Mastering MVC 3](https://www.infoq.com/presentations/Mastering-Spring-MVC-3).
-
-A screen cast showing the showcase in action is [available in QuickTime format](http://s3.springsource.org/MVC/mvc-showcase-screencast.mov).
+### 5. After checking out the item a PDF of the final bill is generated using the PDF View in Spring MVC. This PDF can be downloaded as per the user wish
+![](images/pro8.PNG?raw=true)
