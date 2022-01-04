@@ -14,7 +14,7 @@ files:
 # overwrite the files. 
 hooks:
  ApplicationStop:
-   - location: sudo shutdown.sh
+   - location: /usr/share/apache-tomcat-10.0.14/bin/shutdown.sh
  # Now we can start up Tomcat once again
  ApplicationStart:
-   - location: sudo startup.sh
+   - location: /usr/share/apache-tomcat-10.0.14/bin/startup.sh
