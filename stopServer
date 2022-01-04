@@ -1,1 +1,1 @@
-sudo shutdown.sh
+sudo sh shutdown.sh
